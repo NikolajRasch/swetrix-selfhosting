@@ -9,7 +9,7 @@ services:
     ports:
       - '81:3000'
     environment:
-      - API_URL=https://api.swetrix.newxp.dk/
+      - API_URL=${API_URL}
       - SELFHOSTED=true
 
   # This is the analytics API
