@@ -20,13 +20,13 @@ services:
     ports:
       - '8081:5005'
     environment:
-      - JWT_ACCESS_TOKEN_SECRET=jwt-access-token-secret
-      - JWT_REFRESH_TOKEN_SECRET=jwt-refresh-token-secret
+      - JWT_ACCESS_TOKEN_SECRET=${jwt-access-token-secret}
+      - JWT_REFRESH_TOKEN_SECRET=${jwt-refresh-token-secret}
       - REDIS_HOST=redis
       - CLICKHOUSE_HOST=http://clickhouse
       - API_ORIGINS=
-      - EMAIL=EMAIL
-      - PASSWORD=PASSWORD
+      - EMAIL=${EMAIL}
+      - PASSWORD=${PASSWORD}
       - API_KEY=
       - DEBUG_MODE=false
       - CLOUDFLARE_PROXY_ENABLED=false
