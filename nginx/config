@@ -1,7 +1,7 @@
 server {
   listen 81;
   listen [::]:81;
-  # server_name swetrix.yourdomain.com;
+  # server_name swetrix.newxp.dk;
   server_name _;
 
   location / {
@@ -15,7 +15,7 @@ server {
 server {
   listen 8081;
   listen [::]:8081;
-  # server_name api.swetrix.yourdomain.com;
+  # server_name api.swetrix.newxp.dk;
   server_name _;
 
   location / {
