@@ -25,8 +25,8 @@ services:
       - REDIS_HOST=redis
       - CLICKHOUSE_HOST=http://clickhouse
       - API_ORIGINS=
-      - EMAIL=nikolaj@scrim.live
-      - PASSWORD=Nikolaj1010
+      - EMAIL=EMAIL
+      - PASSWORD=PASSWORD
       - API_KEY=
       - DEBUG_MODE=false
       - CLOUDFLARE_PROXY_ENABLED=false
